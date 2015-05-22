@@ -1,5 +1,5 @@
 import os, sys
-import Image
+from PIL import Image
 
 size = 1024, 1024
 
