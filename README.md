@@ -8,5 +8,3 @@ Clone/download the git repo, and install using `python setup.py`.
 ## Usage
 
 `image-resize input_file.jpg`
-
-

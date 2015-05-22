@@ -8,7 +8,7 @@ def console_main():
     parser = argparse.ArgumentParser(
                 description='Downloads images from given URL')
     parser.add_argument('img2resize', nargs=1, help="Image to resize")
-    parser.add_argument('-s', '--size', type=int, nargs=2, default="1024, 1024",
+    parser.add_argument('-s', '--size', type=int, nargs=2, default=[1024, 1024],
                         help="Size of the image output. <height>, <width>")
     args = parser.parse_args()
     size = tuple(args.size)
@@ -21,4 +21,4 @@ def console_main():
                 im.thumbnail(size, Image.ANTIALIAS)
                 im.save(outfile, "JPEG")
             except IOError:
-                print "cannot create thumbnail for '%s'" % infile
+                print "cannot create thumbnail for '{0}'".format(infile)
