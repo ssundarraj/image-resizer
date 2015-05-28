@@ -10,7 +10,7 @@ def console_main():
     parser.add_argument('img2resize', nargs='*', help="Image to resize")
     parser.add_argument('-s', '--size', type=int, nargs=2, default=[1024, 1024],
                         help="Size of the image output. <height>, <width>")
-    parser.add_argument('-a', '--appstring', type=str, nargs=1, default="_thumbnail",
+    parser.add_argument('-a', '--appstring', type=str, default="_thumbnail",
                         help="String to be appended to the file output.")
     args = parser.parse_args()
     size = tuple(args.size)
