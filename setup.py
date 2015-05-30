@@ -9,7 +9,7 @@ setup(name='image_resizer',
       author_email='sriram.s.1994@gmail.com',
       packages=['image_resizer'],
       entry_points={
-          'console_scripts': ['image-resize=image_resizer:console_main'],
+          'console_scripts': ['image-resize=image_resize:console_main'],
       },
       url='https://github.com/srirams6/image_resizer/',
       description='Python tool to resize a bunch of images quickly.',
