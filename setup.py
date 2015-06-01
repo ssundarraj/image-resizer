@@ -1,13 +1,13 @@
 from setuptools import setup
 import sys
 
-setup(name='image_resizer',
+setup(name='image-resize',
       version='0.0.1',
       install_requires=[
           r for r in open('requirements.txt', 'r').read().split('\n') if r],
       author='Sriram Sundarraj',
       author_email='sriram.s.1994@gmail.com',
-      packages=['image_resizer'],
+      packages=['image-resize'],
       entry_points={
           'console_scripts': ['image-resize=image_resize:console_main'],
       },
