@@ -5,7 +5,7 @@ Python tool to resize a bunch of images quickly.
 
 Install via pip using:
 
-`pip install -e git+https://github.com/srirams6/image_resizer.git#egg=image_resizer`
+`pip install -e git+https://github.com/ssundarraj/image_resizer.git#egg=image_resizer`
 
 or
 
