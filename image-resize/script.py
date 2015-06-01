@@ -23,6 +23,6 @@ def console_main():
                 im = Image.open(infile)
                 im.thumbnail(size, Image.ANTIALIAS)
                 im.save(outfile, "JPEG")
-                print "Resied '{0}' to '{1}'.".format(infile, outfile)
+                print "Resized '{0}' to '{1}'.".format(infile, outfile)
             except IOError:
                 print "cannot create thumbnail for '{0}'.".format(infile)
