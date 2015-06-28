@@ -5,7 +5,7 @@ Python tool to resize a bunch of images quickly.
 
 Install via pip using:
 
-`pip install image-resize`
+`pip install image-resizer`
 
 Get the cutting edge version using:
 

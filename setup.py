@@ -1,7 +1,7 @@
 from setuptools import setup
 import sys
 
-setup(name = 'image-resize',
+setup(name = 'image-resizer',
       description = 'Python tool to resize a bunch of images quickly.',
       long_description=open('README.rst').read(),
       version = '0.1.1',
@@ -9,7 +9,7 @@ setup(name = 'image-resize',
         r for r in open('requirements.txt', 'r').read().split('\n') if r],
       author = 'Sriram Sundarraj',
       author_email = 'ssundarraj@gmail.com',
-      packages = ['image-resize'],
+      packages = ['image-resizer'],
 
       entry_points = {
           'console_scripts': ['image-resize=image_resize:console_main'],
